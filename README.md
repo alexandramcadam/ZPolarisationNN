@@ -1,10 +1,10 @@
 # ZPolarisationNN
 
-Repository for my senior honours project "Distinguishing Longitudinally and Transversely Polarised Weak Bosons using Machine Learning". A Graph Neureal Network (GNN) and Deep Neural Network (DNN) were used to distinguish the polarisations of Z bosons. Training was performed using a simulated, but experimentally-realistic, dataset of $pp \rightarrow ZZ \rightarrow q\bar{q}\ell\bar{\ell}$ events from $\sqrt{s}=14$ TeV pp collisions. The code is largely adapted from the repository https://github.com/Satriawidy/HggNN. The report for this project is included in the repository for futher information.  
+Repository for my senior honours project "Distinguishing Longitudinally and Transversely Polarised Weak Bosons using Machine Learning". A Graph Neural Network (GNN) and Deep Neural Network (DNN) were used to distinguish the polarisations of Z bosons. Training was performed using a simulated, but experimentally-realistic, dataset of $pp \rightarrow ZZ \rightarrow q\bar{q}\ell\bar{\ell}$ events from $\sqrt{s}=14$ TeV pp collisions. The code is largely adapted from the repository https://github.com/Satriawidy/HggNN. The report for this project is included in the repository for futher information.  
 
 # Set Up
 
-This project was implemented within a virtual environment using python 3 (specifically version 3.9.6) and the dependencies given in `requirements.txt`. 
+This project was implemented within a virtual environment using python 3 (version 3.9.6) and the dependencies given in `requirements.txt`. 
 
 # GNN
 1. Process the input dataset into a suitable format for GNN using one of `process.py`,`process_labframe.py` or `process_restframeVV.py` depending on the input dataset and desired reference frame to train the model. This creates a file with the graph data. 
